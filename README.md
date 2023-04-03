@@ -1,6 +1,6 @@
 # NTFY on Fly.io
 
-This is a simple example of how to use [ntfy](ntfy.sh) with [Fly.io](https://fly.io).
+This is a simple example of how to deploy [ntfy](ntfy.sh) to [Fly.io](https://fly.io).
 
 ## Prerequisites
 
