@@ -32,6 +32,12 @@ Subscribe to the topic `notify` using auth `user:password`:
 ntfy subscribe -u user:password https://example.fly.dev/subscribe/notify
 ```
 
+Set the `NTFY_USER` environment variable:
+```bash
+export NTFY_USER=username:password
+ntfy send https://example.fly.dev/notify "example message"
+```
+
 ## Resources
 
 [Build Secrets](https://fly.io/docs/reference/build-secrets/)
